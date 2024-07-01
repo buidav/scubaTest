@@ -7,3 +7,7 @@ SCuBA OSCAL Catalog JSON POC
 https://raw.githubusercontent.com/buidav/scubaTest/main/demos/scuba_m365_catalog_DEMO.json
 ```
 3. Then press enter or press the `RELOAD` button.
+
+## Running
+1.  `run.ps1` is the entry point lazy script. 
+2.  `.\run.ps1` or just run the python files in that script manually.
