@@ -5,4 +5,5 @@
 ```
 https://raw.githubusercontent.com/buidav/scubaTest/main/demos/scuba_m365_catalog_DEMO.json
 ```
-into the `OSCAL Catalog URL` text entry bar and press enter or press the reload button.
+into the `OSCAL Catalog URL` text entry bar. 
+3. Then press enter or press the `RELOAD` button.
