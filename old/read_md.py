@@ -19,7 +19,7 @@ def read_baseline_docs(baseline_path:pathlib.Path):
         filename.stem for filename in baseline_path.glob('*.md')
     ]
 
-    products = ['aad', 'defender', 'exo', 'powerbi', 'powerplatform', 'sharepoint', 'teams', ]
+    products = ['aad', 'defender', 'exo', 'sharepoint', 'powerplatform', 'teams']
 
 
     # map baseline short name i.e gmail to markdown file name
@@ -97,9 +97,4 @@ if __name__ == '__main__':
     baselines = Path('./baselines').resolve()
     b = read_baseline_docs(baselines)
 
-    #print(json.dumps(b, indent=4))
-    # Serializing json
-    json_object = json.dumps(b, indent=4)
-    # Writing to sample.json
-    with open("./scubamarkdown.json", "w") as outfile:
-        outfile.write(json_object)
+    print(json.dumps(b, indent=4))
