@@ -3173,7 +3173,7 @@
                                     {
                                         "id": "MS.TEAMS.1.6v1_rationale",
                                         "name": "Rationale",
-                                        "prose": "Rationale Allowing any user to record a Teams meeting or group call may lead to unauthorized disclosure of shared information, including audio, video, and shared screens. By disabling the meeting recording setting in the Global (Org-wide default) meeting policy, an agency limits information exposure.."
+                                        "prose": "Allowing any user to record a Teams meeting or group call may lead to unauthorized disclosure of shared information, including audio, video, and shared screens. By disabling the meeting recording setting in the Global (Org-wide default) meeting policy, an agency limits information exposure.."
                                     },
                                     {
                                         "id": "MS.TEAMS.1.6v1_note.1",
