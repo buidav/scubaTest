@@ -1,0 +1,74 @@
+{
+    "powerplatform": [
+        {
+            "GroupNumber": "1",
+            "GroupName": "Creation of Power Platform Environments",
+            "Controls": [
+                {
+                    "Id": "MS.POWERPLATFORM.1.1v1",
+                    "Value": "The ability to create production and sandbox environments SHALL be restricted to admins.",
+                    "Deleted": false
+                },
+                {
+                    "Id": "MS.POWERPLATFORM.1.2v1",
+                    "Value": "The ability to create trial environments SHALL be restricted to admins.",
+                    "Deleted": false
+                }
+            ]
+        },
+        {
+            "GroupNumber": "2",
+            "GroupName": "Power Platform Data Loss Prevention Policies",
+            "Controls": [
+                {
+                    "Id": "MS.POWERPLATFORM.2.1v1",
+                    "Value": "A DLP policy SHALL be created to restrict connector access in the default Power Platform environment.",
+                    "Deleted": false
+                },
+                {
+                    "Id": "MS.POWERPLATFORM.2.2v1",
+                    "Value": "Non-default environments SHOULD have at least one DLP policy affecting them.",
+                    "Deleted": false
+                }
+            ]
+        },
+        {
+            "GroupNumber": "3",
+            "GroupName": "Power Platform Tenant Isolation",
+            "Controls": [
+                {
+                    "Id": "MS.POWERPLATFORM.3.1v1",
+                    "Value": "Power Platform tenant isolation SHALL be enabled.",
+                    "Deleted": false
+                },
+                {
+                    "Id": "MS.POWERPLATFORM.3.2v1",
+                    "Value": "An inbound/outbound connection allowlist SHOULD be configured.",
+                    "Deleted": false
+                }
+            ]
+        },
+        {
+            "GroupNumber": "4",
+            "GroupName": "Power Apps Content Security Policy",
+            "Controls": [
+                {
+                    "Id": "MS.POWERPLATFORM.4.1v1",
+                    "Value": "Content Security Policy SHALL be enforced for model-driven and canvas Power Apps.",
+                    "Deleted": false
+                }
+            ]
+        },
+        {
+            "GroupNumber": "5",
+            "GroupName": "Power Pages Creation",
+            "Controls": [
+                {
+                    "Id": "MS.POWERPLATFORM.5.1v1",
+                    "Value": "The ability to create Power Pages sites SHOULD be restricted to admins.",
+                    "Deleted": false
+                }
+            ]
+        }
+    ]
+}
