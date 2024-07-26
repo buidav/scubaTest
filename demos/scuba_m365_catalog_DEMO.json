@@ -3171,10 +3171,20 @@
                                 ],
                                 "parts": [
                                     {
-                                        "id": "MS.TEAMS.1.6v1_stm",
-                                        "name": "statement",
-                                        "prose": "TODO Adding additional information here requires modifications to ScubaGear/Goggles itself. To display the rationale, note, and implementation fields for this control, MS.TEAMS.1.6v1, enhancements need to be added to the markdown parser function in the reporter module."
+                                        "id": "MS.TEAMS.1.6v1_rationale",
+                                        "name": "rationle",
+                                        "prose": "Rationale Allowing any user to record a Teams meeting or group call may lead to unauthorized disclosure of shared information, including audio, video, and shared screens. By disabling the meeting recording setting in the Global (Org-wide default) meeting policy, an agency limits information exposure.."
                                     }
+                                    {
+                                        "id": "MS.TEAMS.1.6v1_note.1",
+                                        "name": "note",
+                                        "prose": "This policy applies to the Global (Org-wide default) meeting policy, as well as custom meeting policies. Custom policies MAY be created to allow more flexibility for specific users."
+                                    },
+                                    {
+                                        "id": "MS.TEAMS.1.6v1.2_instructions",
+                                        "name": "objective",
+                                        "prose": "1.  Sign in to the **Microsoft Teams admin center**. 2.  Select **Meetings** > **Meeting policies**. 3.  Select the **Global (Org-wide default)** policy. 4.  Under the **Recording & transcription** section, set **Meeting recording** to **Off**. 5  Select **Save.**"
+                                    },
                                 ]
                             },
                             {
